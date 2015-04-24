@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+
+<link rel="icon" href="pics/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="css/main.css" type="text/css" />
+<title>Harvester.co.nz</title>
+
+<script language="JavaScript">
+ 
+ 
+
+
+function myFunction3( )
+{
+
+ var word = "";
+
+ word+=window.parent.document.getElementById('totalValue').value;
+ document.getElementById('totalDisplays').innerHTML ='Based on your choices of: ' + word+ ', we reccomend you plant these:';
+
+
+}
+</script>
+</head>
+
+
+<body>
+<div id = "wrap">
+	<div id ="logo">
+		<a href="homepage.html"><img style="border:0; height:auto; width:auto; max-width:55px; max-height:110px;" src="pics/logo2.jpg" alt="logo"></a>
+	</div>
+	<div id ="title">
+		<h1>Harvester </h1>	
+	</div>
+	
+	
+	
+	<ul id="navigation">
+	
+		<li><a href="gettingstarted.html">Getting Started</a></li>
+		<li><a href="vegindex.html">Fruit/Veg Index</a></li>
+		<li><a href="#">Seasonal Guide</a></li>
+		<li><a href="#">Hints & Tips</a></li>
+		<li><a href="#">FAQ</a></li>
+		<li><a href="documentation.html">Documentation</a></li>
+		<li><a href="usability.html">Usability Report</a></li>
+		
+		<form  method ="get"action="searchresults.html">
+			<input type=search placeholder=Search.. >
+		</form>
+	
+	</div>
+	<div id ="content" >
+	<input id="totalValues" type="hidden" value="0">
+	<div id="totalDisplays">
+	</div>
+	<hr>
+	<table id="tabres" >
+	<tr style="align:center;">
+	<td><h3>Artichoke</h3></td>
+	<td><img style="height:auto; width:auto; max-width:300px; max-height:250px;" src="pics/veg/artichoke.jpg" alt="balcony garden"></td>
+	
+	</tr>
+	<tr>
+	<td><h3>Potatoes</h3></td>
+	<td><img style="height:auto; width:auto; max-width:300px; max-height:250px;" src="pics/veg/potatoes.jpg" alt="balcony garden"></td>
+	</tr>
+	<tr>
+	<td><a style="color: #007844;" href="tomatos.html"><h3>Tomatoes</h3></td>
+	<td><a href="tomatos.html"><img style="height:auto; width:auto; max-width:300px; max-height:250px;" src="pics/veg/Tomatoes.jpg" alt="balcony garden"></td>
+	
+	</tr>
+	</table>
+	<hr>
+	<p>Use the following tips to help setup your garden space</p>
+	<table  >
+	<tr >
+	
+	<td><h3>Your conditions allow:</h3>
+	<ul>
+	<li>
+	 Vertical gardening</li>
+	 <li>
+	 Irrigation </li></ul>
+	 </td>
+
+	</tr>
+	
+	</table>
+	</div>
+	
+	
+		<div id="footer">
+		<p>&copy;Designed by Rajneel Sharma</p>
+	</div>
+	</div>
+</body>	

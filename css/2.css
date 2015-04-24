@@ -1,0 +1,139 @@
+.radio {
+    opacity: 0;
+    position: absolute;
+	
+}
+.label {
+    background: url(../pics/roof.jpg) no-repeat;
+    text-indent: -999em;
+    border: 10px solid white;
+    width: 256px;
+    height: 256px;
+    display: block;
+    float:left;
+    margin: 10px;
+	
+}
+
+.label1 {
+    background: url(../pics/noroof.jpg) no-repeat;
+    text-indent: -999em;
+    border: 10px solid white;
+    width: 256px;
+    height: 256px;
+    display: block;
+    float:left;
+    margin: 10px;
+	
+}
+
+.label2 {
+    background: url(../pics/sun.jpg) no-repeat;
+    text-indent: -999em;
+    border: 10px solid white;
+    width: 256px;
+    height: 256px;
+    display: block;
+    float:left;
+    margin: 10px;
+	
+}
+
+.label3 {
+    background: url(../pics/nosun.jpg) no-repeat;
+    text-indent: -999em;
+    border: 10px solid white;
+    width: 256px;
+    height: 256px;
+    display: block;
+    float:left;
+    margin: 10px;
+	
+}
+
+.label4 {
+    background: url(../pics/space.jpg) no-repeat;
+    text-indent: -999em;
+    border: 10px solid white;
+    width: 256px;
+    height: 256px;
+    display: block;
+    float:left;
+    margin: 10px;
+	
+}
+
+.label5 {
+    background: url(../pics/nospace.jpg) no-repeat;
+    text-indent: -999em;
+    border: 10px solid white;
+    width: 256px;
+    height: 256px;
+    display: block;
+    float:left;
+    margin: 10px;
+	
+}
+
+
+
+input[type="radio"]:checked + label {
+    border: 10px solid #007843;
+}
+#quizArea{
+
+color:#007843;
+	width: auto;
+	
+	min-width:1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 150px;
+	padding-bottom: 10px;
+
+
+}
+#question1  {
+	display: block;
+    float:left;
+	color:#007843;
+	
+	padding: 0px 0 0 35%;
+	
+}
+
+
+#question2  {
+	display: block;
+    float:left;
+	padding: 50px 0 0 35%;
+	
+}
+
+#question3  {
+	display: block;
+    float:left;
+	padding: 50px 0 0 35%;
+	
+}
+
+#veg{
+color: #007843;
+text-align:center;
+padding-top: 150px;
+	padding-bottom: 10px;
+	
+
+}
+
+#index td{
+
+color: #007843;
+
+
+}
+
+
+ td a:link {color: #009530;}
+td a:visited {color: #007843;}
+
